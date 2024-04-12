@@ -1,6 +1,7 @@
 const path = require('path');
 const CopyPlugin = require("copy-webpack-plugin");
 
+
 module.exports = {
     //Set source directory as context
     context: path.join(__dirname, 'src'),
